@@ -1,0 +1,18 @@
+.underline_hover:after {
+  background: none repeat scroll 0 0 transparent;
+  transition: ease-in-out;
+  bottom: 0;
+  content: "";
+  text-align: center;
+  display: block;
+  height: 2px;
+  position: relative;
+  background: linear-gradient(90deg, #032f39, #f6a800);
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.underline_hover:hover:after {
+  width: 100%;
+  transition: ease-in-out;
+  left: 0;
+}
