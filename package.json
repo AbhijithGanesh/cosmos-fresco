@@ -16,6 +16,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "@react-icons/all-files": "^4.1.0",
     "gatsby": "^4.20.0",
     "gatsby-plugin-image": "^2.20.0",
     "gatsby-plugin-manifest": "^4.20.0",
@@ -27,7 +28,8 @@
     "gatsby-transformer-sharp": "^4.20.0",
     "postcss": "^8.4.16",
     "react": "^18.1.0",
-    "react-dom": "^18.1.0"
+    "react-dom": "^18.1.0",
+    "react-icons": "^4.4.0"
   },
   "devDependencies": {
     "@types/node": "^17.0.45",

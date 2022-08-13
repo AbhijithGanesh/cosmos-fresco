@@ -12,6 +12,7 @@ const config: GatsbyConfig = {
   plugins: [
     "gatsby-plugin-postcss",
     "gatsby-plugin-image",
+    `gatsby-plugin-sharp`,
     "gatsby-plugin-sitemap",
     {
       resolve: "gatsby-plugin-manifest",

@@ -1,12 +1,17 @@
 import * as React from "react";
-import { EncapsulatedLayout, LeftLayout, RightLayout } from "./Layout";
+import {
+  EncapsulatedExpandedLayout,
+  LeftTealLayout,
+  RightWhiteLayout,
+  SmallLayout,
+} from "./Layout";
 import { WhiteNavbarItem } from "./navbar";
-import icon from "../images/stars.png";
+import { StaticImage } from "gatsby-plugin-image";
 
 const LeftSection = (): JSX.Element => {
   return (
     <>
-      <LeftLayout color="teal">
+      <LeftTealLayout>
         <>
           <section className="flex place-self-center lg:justify-center md:justify-start sm:justify-start pt-72 px-4 lg:text-8xl md:text-6xl text-yellow font-extrabold">
             Anisha Kang
@@ -15,7 +20,7 @@ const LeftSection = (): JSX.Element => {
             Creative Writer from India!
           </section>
         </>
-      </LeftLayout>
+      </LeftTealLayout>
     </>
   );
 };
@@ -23,16 +28,24 @@ const LeftSection = (): JSX.Element => {
 const RightSection = (): JSX.Element => {
   return (
     <>
-      <RightLayout color="white">
-        <section className="py-4 px-8 lg:flex md:flex sm:flex lg:justify-end md:justify-evenly sm:justify-evenly gap-4">
+      <RightWhiteLayout>
+        <section className="py-4 px-8 flex lg:justify-end md:justify-evenly sm:justify-evenly gap-4">
           <WhiteNavbarItem>Work</WhiteNavbarItem>
           <WhiteNavbarItem>About</WhiteNavbarItem>
           <WhiteNavbarItem>Projects</WhiteNavbarItem>
         </section>
-        <section className="sm:hidden md:hidden lg:flex justify-start pt-[592px]">
-          <img src={icon} />
+
+        <section className="flex justify-center">
+          <StaticImage
+            src="../images/anisha-bitmoji.jpg"
+            height={600}
+            width={600}
+          />
         </section>
-      </RightLayout>
+        <section className="sm:hidden md:hidden lg:flex justify-start mb-4">
+          <StaticImage src="../images/stars.png" />
+        </section>
+      </RightWhiteLayout>
     </>
   );
 };
@@ -40,10 +53,14 @@ const RightSection = (): JSX.Element => {
 const MainPage = (): JSX.Element => {
   return (
     <>
-      <EncapsulatedLayout>
+      <EncapsulatedExpandedLayout>
         <LeftSection />
         <RightSection />
-      </EncapsulatedLayout>
+      </EncapsulatedExpandedLayout>
+      <SmallLayout>
+        <LeftSection />
+        <RightSection />
+      </SmallLayout>
     </>
   );
 };

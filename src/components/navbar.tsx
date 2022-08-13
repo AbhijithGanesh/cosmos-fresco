@@ -15,7 +15,7 @@ let WhiteNavbarItem = (props: GenericProps): JSX.Element => {
 let TealNavbarItem = (props: GenericProps): JSX.Element => {
   return (
     <>
-      <section className="text-white text-2xl font-bold hover:bg-slate-400">
+      <section className="text-white text-2xl font-bold underline_hover hover:bg-gray-700 hover:p-1 hover:rounded-md">
         {props.children}
       </section>
     </>

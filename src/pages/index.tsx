@@ -10,10 +10,10 @@ const IndexPage = () => {
   return (
     <>
       <MainPage />
-      <About />
-      <Projects />
       <Work />
-      {/* <Footer /> */}
+      <Projects />
+      <About />
+      <Footer />
     </>
   );
 };
