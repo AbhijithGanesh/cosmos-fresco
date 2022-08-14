@@ -1,10 +1,11 @@
+import { StaticImage } from "gatsby-plugin-image";
 import * as React from "react";
 
 import {
   EncapsulatedExpandedLayout,
   LeftTealLayout,
   RightWhiteLayout,
-  SmallLayout
+  SmallLayout,
 } from "./Layout";
 
 let LeftSection = (): JSX.Element => {
@@ -23,7 +24,9 @@ let RightSection = (): JSX.Element => {
   return (
     <>
       <RightWhiteLayout>
-        <></>
+        <>
+          <section className="bg-slate-100"></section>
+        </>
       </RightWhiteLayout>
     </>
   );

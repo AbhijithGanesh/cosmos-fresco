@@ -1,17 +1,19 @@
 import * as React from "react";
+import IpadLayout from "./ipad";
 import {
   EncapsulatedExpandedLayout,
   LeftWhiteLayout,
   RightTealLayout,
-  SmallLayout,
+  SmallLayout
 } from "./Layout";
-import { TealNavbarItem } from "./navbar";
 
 let LeftSection = (): JSX.Element => {
   return (
     <>
       <LeftWhiteLayout>
-        <></>
+        <>
+          <IpadLayout />
+        </>
       </LeftWhiteLayout>
     </>
   );

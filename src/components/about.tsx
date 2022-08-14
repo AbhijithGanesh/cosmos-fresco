@@ -12,9 +12,11 @@ let LeftSection = (): JSX.Element => {
   return (
     <>
       <LeftWhiteLayout>
-        <>
-          <IpadLayout />
-        </>
+        <StaticImage
+          src="../images/anisha.png"
+          alt="Anisha's Avatar"
+          height={800}
+        />
       </LeftWhiteLayout>
     </>
   );

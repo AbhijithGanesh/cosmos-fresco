@@ -4,7 +4,7 @@ import { GenericProps as LayoutProps } from "../types/LayoutProps";
 let EncapsulatedExpandedLayout = (props: LayoutProps): JSX.Element => {
   return (
     <>
-      <section className="md:hidden sm:hidden lg:grid grid-cols-10">
+      <section className="hidden lg:grid grid-cols-10">
         {props.children}
       </section>
     </>
