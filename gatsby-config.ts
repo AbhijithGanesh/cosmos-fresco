@@ -11,6 +11,9 @@ const config: GatsbyConfig = {
     siteUrl: "https://cosmos-fresco.vercel.app/",
     instagram: "highratedkudi",
     crossOrigin: "use-credentials",
+    backgroundColor: "#032F39",
+    themeColor: "#032F39",
+    start_url: "/",
   },
   // More easily incorporate content into your pages through automatic TypeScript type generation and better GraphQL IntelliSense.
   // If you use VSCode you can also use the GraphQL plugin
