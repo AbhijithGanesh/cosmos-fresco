@@ -30,12 +30,14 @@ const RightSection = (): JSX.Element => {
     <>
       <RightWhiteLayout>
         <>
-          <section className="flex justify-center">
-            <StaticImage
-              src="../images/Mobile.png"
-              alt="Anisha's Feed"
-              height={850}
-            />
+          <section className="flex justify-center hover:-translate-x-2">
+            <a href="https://instagram.com/highratedkudi/" target={"__blank"}>
+              <StaticImage
+                src="../images/Mobile.png"
+                alt="Anisha's Feed"
+                height={850}
+              />
+            </a>
           </section>
         </>
       </RightWhiteLayout>

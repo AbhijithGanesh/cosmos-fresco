@@ -28,7 +28,7 @@ let LeftSection = (): JSX.Element => {
               title={"Wattpad"}
               text={
                 <>
-                  <section className="text-lg lg:text-2xl md:text-xl">
+                  <section className="text-lg lg:text-xl md:text-xl">
                     The world's most-loved social storytelling platform Wattpad
                     connects a global community of 90 million readers and
                     writers through the power of story. A social platform where
@@ -48,7 +48,7 @@ let LeftSection = (): JSX.Element => {
               }
               text={
                 <>
-                  <section className="text-lg lg:text-2xl md:text-xl">
+                  <section className="text-lg lg:text-xl md:text-xl">
                     Twitter handle that keeps the world up with HighRatedKudi's
                     latest releases.
                   </section>
@@ -67,7 +67,7 @@ let LeftSection = (): JSX.Element => {
               }
               text={
                 <>
-                  <section className="text-lg lg:text-2xl md:text-xl">
+                  <section className="text-lg lg:text-xl md:text-xl">
                     Tumblr is so easy to use that it's hard to explain. It is a
                     really simple platform for people to make a blog and upload
                     content. Stories, photos, GIFs. My Story bits can be found
