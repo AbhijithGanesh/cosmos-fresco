@@ -13,8 +13,8 @@ import { Card, Column } from "./card";
 let IpadLayout = (): JSX.Element => {
   return (
     <>
-      <section className="sm:justify-center sm:flex">
-        <section className="my-20 mx-16 p-8 h-max w-5/6  border-8 rounded-md border-black ">
+      <section className="md:flex sm:justify-center sm:flex md:justify-center ">
+        <section className="my-20 mx-16 p-8 h-max w-5/6  border-8 rounded-md border-black">
           <section className="flex flex-1 justify-between">
             <section className="flex flex-1 justify-start items-center">
               <section className="text-4xl text-orange-500">

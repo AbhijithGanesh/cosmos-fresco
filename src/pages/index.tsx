@@ -11,10 +11,17 @@ const IndexPage = () => {
   return (
     <>
       <TealNavBar>
-        <section className="py-4 px-8 flex lg:justify-end md:justify-evenly sm:justify-evenly gap-4">
-          <TealNavbarItem>Work</TealNavbarItem>
-          <TealNavbarItem>About</TealNavbarItem>
-          <TealNavbarItem>Projects</TealNavbarItem>
+        <section className="flex lg:items-center lg:justify-between">
+          <section className="hidden lg:flex lg:justify-start lg:gap-4">
+            <section className="text-3xl text-yellow font-extrabold">
+              HighRatedKudi
+            </section>
+          </section>
+          <section className="py-4 px-8 flex lg:justify-end md:justify-evenly sm:justify-evenly gap-4">
+            <TealNavbarItem>Work</TealNavbarItem>
+            <TealNavbarItem>About</TealNavbarItem>
+            <TealNavbarItem>Projects</TealNavbarItem>
+          </section>
         </section>
       </TealNavBar>
       <MainPage />

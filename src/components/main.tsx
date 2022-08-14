@@ -16,7 +16,7 @@ const LeftSection = (): JSX.Element => {
           <section className="flex place-self-center lg:justify-center md:justify-start sm:justify-start pt-72 px-4 text-8xl text-yellow font-extrabold">
             Anisha Kang
           </section>
-          <section className="flex p-8 justify-end lg:text-3xl md:text-xl font-regular text-white">
+          <section className="flex p-8 justify-end text-3xl font-regular text-white">
             Creative Writer from India!
           </section>
         </>

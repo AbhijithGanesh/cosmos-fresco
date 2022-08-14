@@ -1,5 +1,5 @@
-import { StaticImage } from "gatsby-plugin-image";
 import * as React from "react";
+import IpadLayout from "./ipad";
 
 import {
   EncapsulatedExpandedLayout,
@@ -25,7 +25,7 @@ let RightSection = (): JSX.Element => {
     <>
       <RightWhiteLayout>
         <>
-          <section className="bg-slate-100"></section>
+          <IpadLayout />
         </>
       </RightWhiteLayout>
     </>
