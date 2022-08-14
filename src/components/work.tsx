@@ -95,7 +95,7 @@ let Cards = (props: CardProps): JSX.Element => {
   return (
     <>
       <a href={props.link}>
-        <section className="bg-slate-100 rounded-md drop-shadow-md px-4 my-16 hover:translate-y-4">
+        <section className="bg-slate-100 rounded-md drop-shadow-md px-4 py-0 md:py-2 lg:py-2 my-16 hover:translate-y-4">
           <section className="flex justify-start gap-4">
             {props.icon}
             <section className="text-black text-3xl font-semibold">
@@ -115,7 +115,10 @@ let RightSection = () => {
   return (
     <>
       <RightTealLayout>
-        <section className="lg:pt-72 pt-16 px-4 text-6xl lg:text-8xl md:text-8xl font-extrabold text-yellow" id="Work">
+        <section
+          className="lg:pt-72 pt-16 px-4 text-6xl lg:text-8xl md:text-8xl font-extrabold text-yellow"
+          id="Work"
+        >
           My Works
         </section>
         <section className="text-white font-semibold lg:text-2xl px-4 m-2 py-4 md:text-3xl text-3xl sm:text-xl">
