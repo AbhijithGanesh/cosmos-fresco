@@ -95,7 +95,7 @@ let Cards = (props: CardProps): JSX.Element => {
   return (
     <>
       <a href={props.link}>
-        <section className="bg-slate-100 rounded-md drop-shadow-md p-4 my-16 hover:translate-y-4">
+        <section className="bg-slate-100 rounded-md drop-shadow-md px-4 my-16 hover:translate-y-4">
           <section className="flex justify-start gap-4">
             {props.icon}
             <section className="text-black text-3xl font-semibold">

@@ -25,10 +25,10 @@ let Footer = () => {
       <section className="h-[2px]  bg-gradient-to-r from-pink-800 via-red-800 to-yellow" />
       <section className="bg-teal text-white">
         <section className="flex justify-around">
-          <section className="font-light text-xl">
+          <section className="font-light text-xl sm:text-md">
             Writing Stories and Beyond!
           </section>
-          <section className="font-light lg:text-xl text-lg md:text-xl">
+          <section className="font-light text-xl sm:text-md">
             Copyright © {date.getFullYear()} - Anisha Kang and Abhijith Ganesh
           </section>
         </section>
