@@ -22,4 +22,15 @@ let TealNavbarItem = (props: GenericProps): JSX.Element => {
   );
 };
 
-export { TealNavbarItem, WhiteNavbarItem };
+let TealNavBar = (props: GenericProps): JSX.Element => {
+  return (
+    <>
+      <nav className="bg-teal top-0 sticky z-0">
+        {props.children}
+        <section className="h-1 bg-gradient-to-r from-pink-800 via-cyan-400 to-yellow" />
+      </nav>
+    </>
+  );
+};
+
+export { TealNavbarItem, WhiteNavbarItem, TealNavBar };

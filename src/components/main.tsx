@@ -1,3 +1,4 @@
+import { StaticImage } from "gatsby-plugin-image";
 import * as React from "react";
 import {
   EncapsulatedExpandedLayout,
@@ -5,8 +6,7 @@ import {
   RightWhiteLayout,
   SmallLayout,
 } from "./Layout";
-import { WhiteNavbarItem } from "./navbar";
-import { StaticImage } from "gatsby-plugin-image";
+import { TealNavBar, TealNavbarItem, WhiteNavbarItem } from "./navbar";
 
 const LeftSection = (): JSX.Element => {
   return (
@@ -29,21 +29,16 @@ const RightSection = (): JSX.Element => {
   return (
     <>
       <RightWhiteLayout>
-        <section className="py-4 px-8 flex lg:justify-end md:justify-evenly sm:justify-evenly gap-4">
-          <WhiteNavbarItem>Work</WhiteNavbarItem>
-          <WhiteNavbarItem>About</WhiteNavbarItem>
-          <WhiteNavbarItem>Projects</WhiteNavbarItem>
-        </section>
-
-        <section className="flex justify-center">
-          <StaticImage
+        <section className="flex justify-center pl-16 mt-32">
+          {/* <StaticImage
             src="../images/anisha-bitmoji.jpg"
-            height={600}
-            width={600}
-          />
+            alt="Anisha's Graphic"
+            height={400}
+            width={400}
+          /> */}
         </section>
-        <section className="sm:hidden md:hidden lg:flex justify-start mb-4">
-          <StaticImage src="../images/stars.png" />
+        <section className="sm:hidden md:hidden lg:flex justify-start pt-4">
+          <StaticImage src="../images/stars.png" alt="none" />
         </section>
       </RightWhiteLayout>
     </>

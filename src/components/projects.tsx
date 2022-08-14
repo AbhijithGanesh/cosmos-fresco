@@ -1,9 +1,10 @@
 import * as React from "react";
+
 import {
-    EncapsulatedExpandedLayout,
-    LeftTealLayout,
-    RightWhiteLayout,
-    SmallLayout
+  EncapsulatedExpandedLayout,
+  LeftTealLayout,
+  RightWhiteLayout,
+  SmallLayout,
 } from "./Layout";
 import { WhiteNavbarItem } from "./navbar";
 
@@ -23,13 +24,7 @@ let RightSection = (): JSX.Element => {
   return (
     <>
       <RightWhiteLayout>
-        <RightWhiteLayout>
-          <section className="pt-3 px-8 flex lg:justify-end md:justify-evenly sm:justify-evenly gap-4">
-            <WhiteNavbarItem>Work</WhiteNavbarItem>
-            <WhiteNavbarItem>About</WhiteNavbarItem>
-            <WhiteNavbarItem>Projects</WhiteNavbarItem>
-          </section>
-        </RightWhiteLayout>
+        <></>
       </RightWhiteLayout>
     </>
   );
