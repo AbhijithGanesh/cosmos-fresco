@@ -15,7 +15,7 @@ let LeftSection = (): JSX.Element => {
     <>
       <LeftWhiteLayout>
         <>
-          <section className="flex-col p-12">
+          <section className="flex-col px-8">
             <Cards
               link="https://www.wattpad.com/user/highratedkudi"
               icon={
@@ -28,10 +28,12 @@ let LeftSection = (): JSX.Element => {
               title={"Wattpad"}
               text={
                 <>
-                  The world's most-loved social storytelling platform Wattpad
-                  connects a global community of 90 million readers and writers
-                  through the power of story. A social platform where writers
-                  write their novels in sequences.
+                  <section className="text-lg lg:text-2xl md:text-xl">
+                    The world's most-loved social storytelling platform Wattpad
+                    connects a global community of 90 million readers and
+                    writers through the power of story. A social platform where
+                    writers write their novels in sequences.
+                  </section>
                 </>
               }
             />
@@ -46,8 +48,10 @@ let LeftSection = (): JSX.Element => {
               }
               text={
                 <>
-                  Twitter handle that keeps the world up with HighRatedKudi's
-                  latest releases.
+                  <section className="text-lg lg:text-2xl md:text-xl">
+                    Twitter handle that keeps the world up with HighRatedKudi's
+                    latest releases.
+                  </section>
                 </>
               }
               title="Twitter"
@@ -63,10 +67,12 @@ let LeftSection = (): JSX.Element => {
               }
               text={
                 <>
-                  Tumblr is so easy to use that it's hard to explain. It is a
-                  really simple platform for people to make a blog and upload
-                  content. Stories, photos, GIFs. My Story bits can be found
-                  here too!
+                  <section className="text-lg lg:text-2xl md:text-xl">
+                    Tumblr is so easy to use that it's hard to explain. It is a
+                    really simple platform for people to make a blog and upload
+                    content. Stories, photos, GIFs. My Story bits can be found
+                    here too!
+                  </section>
                 </>
               }
               title="Tumblr"
@@ -109,8 +115,13 @@ let RightSection = () => {
   return (
     <>
       <RightTealLayout>
-        <section className="pt-72 px-4 text-8xl font-extrabold text-yellow">
+        <section className="lg:pt-72 pt-16 px-4 text-6xl lg:text-8xl md:text-8xl font-extrabold text-yellow">
           My Works
+        </section>
+        <section className="text-white font-semibold lg:text-2xl px-4 m-2 py-4 md:text-3xl text-3xl sm:text-xl">
+          I have written many stories and have published them across platforms,
+          Feel free to check them out! For writing tips and ideas on how to
+          cover a certain topic, check out my Twitter and Instagram.
         </section>
       </RightTealLayout>
     </>

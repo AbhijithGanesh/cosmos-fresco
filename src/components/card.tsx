@@ -13,7 +13,7 @@ let Card = ({ text, children, describe }: CardProps): JSX.Element => {
         <section className="font-bold text-xl pl-4">{text}</section>
         <section className="bg-gray-200 h-0.5 w-full" />
         <section className="z-0 flex flex-1 justify-start">{children}</section>
-        <section className="p-2 text-black font-light text-sm">
+        <section className="p-2 sm:p-0 sm:text-md text-black font-light text-sm">
           {describe}
         </section>
       </section>

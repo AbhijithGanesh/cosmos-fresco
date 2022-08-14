@@ -12,7 +12,7 @@ let LeftSection = (): JSX.Element => {
   return (
     <>
       <LeftTealLayout>
-        <section className="pt-80 px-4 text-8xl font-extrabold text-yellow">
+        <section className="pt-80 px-4 text-6xl lg:text-8xl md:text-8xl font-extrabold text-yellow">
           My Projects
         </section>
       </LeftTealLayout>
@@ -24,9 +24,7 @@ let RightSection = (): JSX.Element => {
   return (
     <>
       <RightWhiteLayout>
-        <>
-          <IpadLayout />
-        </>
+        <IpadLayout />
       </RightWhiteLayout>
     </>
   );

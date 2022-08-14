@@ -28,7 +28,7 @@ let Footer = () => {
           <section className="font-light text-xl">
             Writing Stories and Beyond!
           </section>
-          <section className="font-light text-xl">
+          <section className="font-light lg:text-xl text-lg md:text-xl">
             Copyright © {date.getFullYear()} - Anisha Kang and Abhijith Ganesh
           </section>
         </section>
