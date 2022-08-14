@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "Alliance";
+  src: url("./fonts/AllianceNo1-Black.ttf");
+  font-weight: 900;
+}
+@font-face {
+  font-family: "Alliance";
+  src: url("./fonts/AllianceNo1-Bold.ttf");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Alliance";
+  src: url("./fonts/AllianceNo1-Light.ttf");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Consolas";
+  src: url("./fonts/Consolas.ttf");
+}

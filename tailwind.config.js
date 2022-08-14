@@ -6,6 +6,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        Ally: ["Alliance"],
+      },
       colors: { teal: "#032F39", yellow: "#F6A800" },
     },
   },
