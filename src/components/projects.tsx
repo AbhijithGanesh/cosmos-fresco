@@ -4,9 +4,8 @@ import {
   EncapsulatedExpandedLayout,
   LeftTealLayout,
   RightWhiteLayout,
-  SmallLayout,
+  SmallLayout
 } from "./Layout";
-import { WhiteNavbarItem } from "./navbar";
 
 let LeftSection = (): JSX.Element => {
   return (

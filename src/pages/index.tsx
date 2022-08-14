@@ -21,7 +21,6 @@ const IndexPage = () => {
       <Work />
       <Projects />
       <About />
-
       <Footer />
     </>
   );

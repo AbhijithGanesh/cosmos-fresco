@@ -9,10 +9,10 @@ interface CardProps {
 let Card = ({ text, children, describe }: CardProps): JSX.Element => {
   return (
     <>
-      <section className="z-2 w-full bg-[#ffffff] text-black drop-shadow-md my-2 px-1">
+      <section className=" bg-[#ffffff] text-black drop-shadow-md my-2 px-1">
         <section className="font-bold text-xl pl-4">{text}</section>
         <section className="bg-gray-200 h-0.5 w-full" />
-        <section className="flex flex-1 justify-start">{children}</section>
+        <section className="z-0 flex flex-1 justify-start">{children}</section>
         <section className="p-2 text-black font-light text-sm">
           {describe}
         </section>

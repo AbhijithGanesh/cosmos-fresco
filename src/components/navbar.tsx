@@ -25,7 +25,7 @@ let TealNavbarItem = (props: GenericProps): JSX.Element => {
 let TealNavBar = (props: GenericProps): JSX.Element => {
   return (
     <>
-      <nav className="bg-teal top-0 sticky z-0">
+      <nav className="bg-teal top-0 sticky z-50">
         {props.children}
         <section className="h-0.5 bg-gradient-to-r from-pink-800  to-yellow" />
       </nav>
