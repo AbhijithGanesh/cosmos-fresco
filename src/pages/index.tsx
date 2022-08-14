@@ -13,14 +13,17 @@ const IndexPage = () => {
       <TealNavBar>
         <section className="flex lg:items-center lg:justify-between">
           <section className="hidden lg:flex lg:justify-start lg:gap-4">
-            <section className="text-3xl text-yellow font-extrabold">
+            <section className="text-3xl text-yellow font-extrabold px-4">
               HighRatedKudi
             </section>
           </section>
           <section className="py-4 px-8 flex lg:justify-end md:justify-evenly sm:justify-evenly gap-4">
-            <TealNavbarItem>Work</TealNavbarItem>
-            <TealNavbarItem>About</TealNavbarItem>
-            <TealNavbarItem>Projects</TealNavbarItem>
+            <TealNavbarItem link="#Work" props={<>Work</>}></TealNavbarItem>
+            <TealNavbarItem
+              link="#Projects"
+              props={<>Projects</>}
+            ></TealNavbarItem>
+            <TealNavbarItem link="#About" props={<>About</>}></TealNavbarItem>
           </section>
         </section>
       </TealNavBar>

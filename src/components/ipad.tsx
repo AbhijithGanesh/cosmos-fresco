@@ -13,8 +13,8 @@ import { Card, Column } from "./card";
 let IpadLayout = (): JSX.Element => {
   return (
     <>
-      <section className="my-20 mx-16 p-8 h-max w-5/6  border-8 rounded-md border-black">
-        <section className="flex flex-1 justify-between">
+      <section className="  flex-col my-20 mx-16 p-8 h-max w-5/6  border-8 rounded-md border-black">
+        <section className="flex justify-between ">
           <section className="flex flex-1 justify-start items-center">
             <section className="text-4xl sm:text-2xl text-orange-500">
               <SiWattpad />
@@ -33,6 +33,7 @@ let IpadLayout = (): JSX.Element => {
           </section>
         </section>
         <Card
+          link="https://www.wattpad.com/story/204995619-project-parvati"
           text={"Project Parvati"}
           children={
             <>
@@ -56,6 +57,7 @@ let IpadLayout = (): JSX.Element => {
           }
         />
         <Card
+          link="https://www.wattpad.com/story/153006001-just-gen-z-things"
           text={"Just Gen Z Things"}
           children={
             <>
@@ -78,6 +80,7 @@ let IpadLayout = (): JSX.Element => {
           }
         />
         <Card
+          link="https://www.wattpad.com/story/214534079-leaving-you-behind"
           text={"Leaving you Behind"}
           children={
             <>

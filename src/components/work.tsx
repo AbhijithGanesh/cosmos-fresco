@@ -115,7 +115,7 @@ let RightSection = () => {
   return (
     <>
       <RightTealLayout>
-        <section className="lg:pt-72 pt-16 px-4 text-6xl lg:text-8xl md:text-8xl font-extrabold text-yellow">
+        <section className="lg:pt-72 pt-16 px-4 text-6xl lg:text-8xl md:text-8xl font-extrabold text-yellow" id="Work">
           My Works
         </section>
         <section className="text-white font-semibold lg:text-2xl px-4 m-2 py-4 md:text-3xl text-3xl sm:text-xl">

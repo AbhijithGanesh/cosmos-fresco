@@ -21,7 +21,10 @@ let RightSection = (): JSX.Element => {
   return (
     <>
       <RightTealLayout>
-        <section className="lg:pt-72 px-4 text-6xl lg:text-8xl md:text-8xl font-extrabold text-yellow">
+        <section
+          className="lg:pt-72 px-4 text-6xl lg:text-8xl md:text-8xl font-extrabold text-yellow"
+          id="About"
+        >
           About me
         </section>
         <section className="text-white font-light lg:text-2xl px-4 m-2 py-4 md:text-3xl text-2xl sm:text-2xl">

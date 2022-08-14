@@ -4,19 +4,24 @@ interface CardProps {
   text: string;
   children: JSX.Element;
   describe: JSX.Element;
+  link: string;
 }
 
-let Card = ({ text, children, describe }: CardProps): JSX.Element => {
+let Card = ({ text, children, describe, link }: CardProps): JSX.Element => {
   return (
     <>
-      <section className=" bg-[#ffffff] text-black drop-shadow-md my-2 px-1">
-        <section className="font-bold text-xl pl-4">{text}</section>
-        <section className="bg-gray-200 h-0.5 w-full" />
-        <section className="z-0 flex flex-1 justify-start">{children}</section>
-        <section className="p-2 sm:p-0 sm:text-md text-black font-light text-sm">
-          {describe}
+      <a href={link}>
+        <section className=" bg-[#ffffff] text-black drop-shadow-md my-2 px-1 hover:translate-y-1">
+          <section className="font-bold text-xl pl-4">{text}</section>
+          <section className="bg-gray-200 h-0.5 w-full" />
+          <section className="z-0 flex flex-1 justify-start">
+            {children}
+          </section>
+          <section className="p-2 sm:p-0 sm:text-md text-black font-light text-sm">
+            {describe}
+          </section>
         </section>
-      </section>
+      </a>
     </>
   );
 };
