@@ -12,7 +12,9 @@ let LeftSection = (): JSX.Element => {
   return (
     <>
       <LeftWhiteLayout>
-        <StaticImage src="../images/anisha.png" alt="Anisha's Avatar" />
+        <section className="flex items-center justify-center ">
+          <StaticImage src="../images/anisha.png" alt="Anisha's Avatar" />
+        </section>
       </LeftWhiteLayout>
     </>
   );
@@ -22,7 +24,7 @@ let RightSection = (): JSX.Element => {
     <>
       <RightTealLayout>
         <section
-          className="lg:pt-72 px-4 font-Ally text-6xl lg:text-8xl md:text-8xl font-extrabold text-yellow"
+          className="lg:pt-72 py-2 px-4 font-Ally text-6xl lg:text-8xl md:text-8xl font-extrabold text-yellow"
           id="About"
         >
           About me

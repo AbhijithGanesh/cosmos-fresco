@@ -21,7 +21,7 @@ let TealNavbarItem = (props: ItemProps): JSX.Element => {
   return (
     <>
       <a href={props.link}>
-        <section className="text-white text-2xl font-bold underline_hover hover:bg-gray-700 hover:p-1 hover:rounded-md">
+        <section className="text-slate-300 hover:text-white text-2xl font-bold underline_hover hover:bg-gray-700 hover:p-1 hover:rounded-md">
           {props.props}
         </section>
       </a>

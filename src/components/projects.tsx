@@ -13,7 +13,7 @@ let LeftSection = (): JSX.Element => {
     <>
       <LeftTealLayout>
         <section
-          className="font-Ally pt-80 px-4 text-6xl lg:text-8xl md:text-8xl font-extrabold text-yellow"
+          className="font-Ally py-2 px-4 text-6xl lg:text-8xl md:text-8xl font-extrabold text-yellow"
           id="Projects"
         >
           My Projects
@@ -22,7 +22,7 @@ let LeftSection = (): JSX.Element => {
           I have worked on multiple projects and I have highlighted my favourite
           ones here! These projects can be accessed via Wattpad.
         </section>
-        <section className="font-Ally text-white font-semibold italic text-xl px-4 m-2 py-4">
+        <section className="font-Ally text-white font-semibold italic text-xl px-4 m-2 py-4 sm:hidden">
           Click on the cards to go to the story
         </section>
       </LeftTealLayout>
@@ -52,8 +52,8 @@ let Projects = (): JSX.Element => {
         <section className="hidden md:block">
           <RightSection />
         </section>
-        <section className="md:hidden sm:h-1/2 sm:text-white sm:text-6xl sm:font-extrabold sm:px-8 sm:block">
-          You need a bigger screen to view this
+        <section className="md:hidden sm:h-fit p-4 text-teal font-bold bg-white text-2xl sm:font-extrabold sm:px-8 sm:block">
+          You need a bigger screen to view this section
         </section>
       </SmallLayout>
     </>

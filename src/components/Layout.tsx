@@ -39,7 +39,7 @@ let LeftWhiteLayout = (props: LayoutProps): JSX.Element => {
   return (
     <>
       <section
-        className={`h-screen bg-white sm:col-span-1 md:col-span-1col-start-1 lg:col-span-5`}
+        className={`h-fit bg-white sm:col-span-1 md:col-span-1col-start-1 lg:col-span-5`}
       >
         {props.children}
       </section>
