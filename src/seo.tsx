@@ -25,6 +25,7 @@ const SearchEngineOptimization = () => {
   return (
     <>
       <title>{seo.title}</title>
+      <meta name="googlebot" content="all"/>
       <meta property="title" content={seo.title} />
       <meta name="description" content={seo.description} />
       <meta name="og:image" content={file?.publicURL} />
