@@ -77,5 +77,5 @@ export {
   RightTealLayout,
   RightWhiteLayout,
   EncapsulatedExpandedLayout,
-  SmallLayout
+  SmallLayout,
 };

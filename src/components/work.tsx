@@ -121,7 +121,7 @@ let RightSection = () => {
         >
           My Works
         </section>
-        <section className="text-white font-semibold lg:text-2xl px-4 m-2 py-4 md:text-3xl text-3xl sm:text-xl font-Ally">
+        <section className="text-white font-light lg:text-2xl px-4 m-2 py-4 md:text-3xl text-3xl sm:text-xl font-Ally">
           I have written many stories and have published them across platforms,
           Feel free to check them out! For writing tips and ideas on how to
           cover a certain topic, check out my Twitter and Instagram.

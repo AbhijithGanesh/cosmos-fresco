@@ -6,8 +6,9 @@ import About from "../components/about";
 import Projects from "../components/projects";
 import Work from "../components/work";
 import Footer from "../components/footer";
+import SearchEngineOptimization from "../seo";
 
-const IndexPage = () => {
+const IndexPage = (): JSX.Element => {
   return (
     <>
       <TealNavBar>
@@ -36,6 +37,6 @@ const IndexPage = () => {
   );
 };
 
-export default IndexPage;
+export const Head: HeadFC = () => <SearchEngineOptimization />;
 
-export const Head: HeadFC = () => <title>Home Page</title>;
+export default IndexPage;

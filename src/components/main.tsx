@@ -1,11 +1,9 @@
-import * as React from "react";
 import { StaticImage } from "gatsby-plugin-image";
+import * as React from "react";
 import {
   EncapsulatedExpandedLayout,
-  LeftTealLayout,
-  RightTealLayout,
-  RightWhiteLayout,
-  SmallLayout,
+  LeftTealLayout, RightWhiteLayout,
+  SmallLayout
 } from "./Layout";
 
 const LeftSection = (): JSX.Element => {
@@ -13,7 +11,7 @@ const LeftSection = (): JSX.Element => {
     <>
       <LeftTealLayout>
         <>
-          <section className="flex place-self-center lg:justify-center md:justify-start sm:justify-start pt-72 px-4 text-8xl text-yellow font-extrabold font-Ally">
+          <section className="flex place-self-center lg:justify-center md:justify-start sm:justify-start sm:pt-32 lg:pt-72 px-4 text-8xl text-yellow font-extrabold font-Ally">
             Anisha Kang
           </section>
           <section className="flex p-8 justify-end text-3xl font-regular text-white font-Ally">

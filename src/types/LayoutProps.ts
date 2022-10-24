@@ -1,7 +1,7 @@
 import { ReactNode } from "react";
 
 interface GenericProps {
-  children: ReactNode;
+  children: ReactNode | JSX.Element;
 }
 
 export { GenericProps };

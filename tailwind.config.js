@@ -4,6 +4,9 @@ module.exports = {
     "./src/pages/**/*.{js,jsx,ts,tsx}",
     "./src/components/**/*.{js,jsx,ts,tsx}",
   ],
+  daisyui: {
+    themes: false,
+  },
   theme: {
     extend: {
       fontFamily: {
@@ -12,5 +15,5 @@ module.exports = {
       colors: { teal: "#032F39", yellow: "#F6A800" },
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 };

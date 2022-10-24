@@ -13,7 +13,7 @@ let LeftSection = (): JSX.Element => {
     <>
       <LeftTealLayout>
         <section
-          className="font-Ally py-2 px-4 text-6xl lg:text-8xl md:text-8xl font-extrabold text-yellow"
+          className="font-Ally pt-72 px-4 text-6xl lg:text-8xl md:text-8xl font-extrabold text-yellow"
           id="Projects"
         >
           My Projects
