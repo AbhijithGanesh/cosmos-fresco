@@ -20,7 +20,7 @@ const SearchEngineOptimization = () => {
   `;
 
   let { site, file } = useStaticQuery(query);
-  let { seo } = site.site.siteMetadata;
+  let seo = site.siteMetadata;
 
   return (
     <>
